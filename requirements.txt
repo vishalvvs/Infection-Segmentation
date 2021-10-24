@@ -1,6 +1,5 @@
 Flask==1.1.2
 opencv-python
-pandas==1.0.5
 efficientnet_pytorch==0.7.0
 torch==1.7.1
 tqdm==4.54.1
