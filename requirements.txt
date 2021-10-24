@@ -3,7 +3,7 @@ opencv-python
 efficientnet_pytorch==0.7.0
 http://download.pytorch.org/whl/cpu/torch-1.7.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
 tqdm==4.54.1
-torchvision==0.8.2+cpu
+torchvision==0.8.2
 requests==2.22.0
 numpy==1.19.0
 h5py==3.1.0
