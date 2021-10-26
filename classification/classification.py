@@ -7,7 +7,7 @@ import torch.nn as nn
 from torchvision import transforms
 from torch.utils.data import Dataset, DataLoader, Subset
 from torch.optim.lr_scheduler import ReduceLROnPlateau, OneCycleLR
-import pandas as pd
+# import pandas as pd
 import numpy as np
 import gc
 import os
