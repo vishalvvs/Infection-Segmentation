@@ -188,7 +188,7 @@ def notfound(link):
 def upload_img():
     filter_list = [16, 32, 64, 128, 256]
     model = DynamicUNet(filter_list)
-    model.load_state_dict(torch.load(r"ml_backend\saved_models\UNet-[16, 32, 64, 128, 256].pt", map_location=torch.device('cpu')))
+    model.load_state_dict(torch.load(r"ml_backend/saved_models/UNet-[16, 32, 64, 128, 256].pt", map_location=torch.device('cpu')))
     if request.method == "POST":
         if request.files:
             image = request.files["image"]
