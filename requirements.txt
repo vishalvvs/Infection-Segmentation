@@ -1,5 +1,5 @@
 Flask==1.1.2
-opencv-python
+opencv-python-headless
 efficientnet_pytorch==0.7.0
 http://download.pytorch.org/whl/cpu/torch-1.7.1%2Bcpu-cp37-cp37m-linux_x86_64.whl
 tqdm==4.54.1
