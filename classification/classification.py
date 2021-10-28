@@ -1,5 +1,5 @@
 import os
-
+# import torch
 import torch
 import torchvision
 import torch.nn.functional as F
@@ -18,6 +18,7 @@ from efficientnet_pytorch import EfficientNet
 import cv2
 from PIL import Image, ImageFilter    
 
+# class testDataset
 class testDataset(Dataset):
     def __init__(self, transforms = None,path=None):
         """
